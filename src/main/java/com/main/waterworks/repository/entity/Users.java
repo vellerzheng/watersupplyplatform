@@ -1,13 +1,11 @@
-package com.main.waterworks.dao.model;
+package com.main.waterworks.repository.entity;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
 public class Users {
     private Long id;
 

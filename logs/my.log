@@ -540,3 +540,55 @@
 2017-12-11 12:38:25.850  INFO 872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2017-12-11 12:38:25.865  INFO 872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
 2017-12-11 12:38:25.896  INFO 872 --- [http-nio-8080-exec-1] c.m.w.controller.BasicInfoController     : test Request method Get
+2017-12-11 14:41:14.913  INFO 6808 --- [main] c.m.w.WatersupplyplatformApplication     : Starting WatersupplyplatformApplication on DESKTOP-79A2OGR with PID 6808 (E:\ProgramFile\javaProject\waterSupplyPlatform\target\classes started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-11 14:41:14.918  INFO 6808 --- [main] c.m.w.WatersupplyplatformApplication     : No active profile set, falling back to default profiles: default
+2017-12-11 14:41:15.258  INFO 6808 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5765cd21: startup date [Mon Dec 11 14:41:15 CST 2017]; root of context hierarchy
+2017-12-11 14:41:15.857  WARN 6808 --- [main] ssPathScanningCandidateComponentProvider : No MyBatis mapper was found in '[com.main.wregulator.dao.mapper]' package. Please check your configuration.
+2017-12-11 14:41:16.171  INFO 6808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-11 14:41:16.217  INFO 6808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-11 14:41:16.700  INFO 6808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5a2f6d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-11 14:41:16.754  INFO 6808 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-11 14:41:17.219  INFO 6808 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-11 14:41:17.233  INFO 6808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-11 14:41:17.234  INFO 6808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-11 14:41:17.371  INFO 6808 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-11 14:41:17.371  INFO 6808 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2118 ms
+2017-12-11 14:41:17.705  INFO 6808 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-11 14:41:17.706  INFO 6808 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-11 14:41:17.707  INFO 6808 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-12-11 14:41:17.709  INFO 6808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-11 14:41:17.710  INFO 6808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-11 14:41:17.710  INFO 6808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-11 14:41:17.710  INFO 6808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-11 14:41:17.710  INFO 6808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-11 14:41:18.011  INFO 6808 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-11 14:41:18.627  INFO 6808 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-11 14:41:18.648  INFO 6808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-11 14:41:18.727  INFO 6808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-11 14:41:18.728  INFO 6808 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-11 14:41:18.729  INFO 6808 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-11 14:41:18.775  INFO 6808 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-11 14:41:18.913  INFO 6808 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-11 14:41:19.217  INFO 6808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-11 14:41:19.665  INFO 6808 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5765cd21: startup date [Mon Dec 11 14:41:15 CST 2017]; root of context hierarchy
+2017-12-11 14:41:19.743  INFO 6808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.main.waterworks.controller.BasicInfoController.testHelo()
+2017-12-11 14:41:19.746  INFO 6808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.main.waterworks.controller.UsersController.addUser(com.main.waterworks.dao.model.Users)
+2017-12-11 14:41:19.747  INFO 6808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.main.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-11 14:41:19.750  INFO 6808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-11 14:41:19.750  INFO 6808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-11 14:41:19.773  INFO 6808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 14:41:19.774  INFO 6808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 14:41:19.802  INFO 6808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 14:41:19.825  WARN 6808 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-11 14:41:20.503  INFO 6808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-11 14:41:20.504  INFO 6808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-11 14:41:20.509  INFO 6808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-11 14:41:20.587  INFO 6808 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-11 14:41:20.595  INFO 6808 --- [main] c.m.w.WatersupplyplatformApplication     : Started WatersupplyplatformApplication in 6.584 seconds (JVM running for 14.442)
+2017-12-11 14:51:48.085  INFO 6808 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1501500896,1501501646,1501507747; Idea-d586a5b=1df5214d-c074-46bd-b854-009aae74d615] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2017-12-11 14:51:48.102  INFO 6808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-11 14:51:48.102  INFO 6808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-11 14:51:48.118  INFO 6808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2017-12-11 14:51:48.240  INFO 6808 --- [http-nio-8080-exec-1] c.m.w.controller.BasicInfoController     : test Request method Get

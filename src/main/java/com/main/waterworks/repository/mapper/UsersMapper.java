@@ -1,6 +1,6 @@
-package com.main.waterworks.dao.mapper;
+package com.main.waterworks.repository.mapper;
 
-import com.main.waterworks.dao.model.Users;
+import com.main.waterworks.repository.entity.Users;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;

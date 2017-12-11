@@ -1,8 +1,8 @@
 package com.main.waterworks.service.userService.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.main.waterworks.dao.mapper.UsersMapper;
-import com.main.waterworks.dao.model.Users;
+import com.main.waterworks.repository.mapper.UsersMapper;
+import com.main.waterworks.repository.entity.Users;
 import com.main.waterworks.service.tools.currentTime.CurrentDateTime;
 import com.main.waterworks.service.userService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

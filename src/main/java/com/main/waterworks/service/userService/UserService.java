@@ -1,6 +1,6 @@
 package com.main.waterworks.service.userService;
 
-import com.main.waterworks.dao.model.Users;
+import com.main.waterworks.repository.entity.Users;
 
 import java.util.List;
 

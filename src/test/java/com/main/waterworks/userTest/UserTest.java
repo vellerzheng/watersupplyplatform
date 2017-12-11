@@ -1,7 +1,7 @@
 package com.main.waterworks.userTest;
 
-import com.main.waterworks.dao.mapper.UsersMapper;
-import com.main.waterworks.dao.model.Users;
+import com.main.waterworks.repository.mapper.UsersMapper;
+import com.main.waterworks.repository.entity.Users;
 import com.main.waterworks.service.tools.currentTime.CurrentDateTime;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
