@@ -25,9 +25,10 @@ spring:
        suffix: .jsp
 mybatis:
   #*Mapper.java可以随便放，只要和mapper.xml对应上就行
-   mapper-locations: classpath:mappering/*.xml
-   type-aliases-package: com.main.wregulator.dao.mapper
-   #type-aliases-package: com.bandaoti.demo.backend.entity
+
+   type-aliases-package: com.waterworks.repository.entity
+   mapper-locations: com/waterworks.repository.mapper/xml/*.xml
+
 
 #这个插件是mybatis的分页查询
 

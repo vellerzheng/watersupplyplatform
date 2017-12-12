@@ -592,3 +592,1054 @@
 2017-12-11 14:51:48.102  INFO 6808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2017-12-11 14:51:48.118  INFO 6808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
 2017-12-11 14:51:48.240  INFO 6808 --- [http-nio-8080-exec-1] c.m.w.controller.BasicInfoController     : test Request method Get
+2017-12-12 14:23:52.690  INFO 6080 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 6080 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 14:23:52.717  INFO 6080 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 14:23:53.580  INFO 6080 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@13004dd8: startup date [Tue Dec 12 14:23:53 CST 2017]; root of context hierarchy
+2017-12-12 14:23:54.823  WARN 6080 --- [main] ssPathScanningCandidateComponentProvider : No MyBatis mapper was found in '[com.main.wregulator.dao.mapper]' package. Please check your configuration.
+2017-12-12 14:23:55.352  INFO 6080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 14:23:55.411  INFO 6080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 14:23:56.824  INFO 6080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$db10b55d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 14:23:56.969  INFO 6080 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 14:23:57.841  INFO 6080 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 14:23:58.686  INFO 6080 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 14:23:58.714  INFO 6080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 14:23:58.865  INFO 6080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 14:23:58.867  INFO 6080 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 14:23:58.869  INFO 6080 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 14:23:58.964  INFO 6080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 14:23:59.245  INFO 6080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 14:24:00.439  INFO 6080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 14:24:01.690  INFO 6080 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@13004dd8: startup date [Tue Dec 12 14:23:53 CST 2017]; root of context hierarchy
+2017-12-12 14:24:01.843  INFO 6080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 14:24:01.851  INFO 6080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 14:24:01.852  INFO 6080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 14:24:01.855  INFO 6080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 14:24:01.857  INFO 6080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 14:24:01.910  INFO 6080 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 14:24:01.910  INFO 6080 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 14:24:01.977  INFO 6080 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 14:24:02.038  WARN 6080 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 14:24:03.449  INFO 6080 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 12.109 seconds (JVM running for 21.847)
+2017-12-12 14:24:03.596  INFO 6080 --- [Thread-17] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@13004dd8: startup date [Tue Dec 12 14:23:53 CST 2017]; root of context hierarchy
+2017-12-12 14:24:03.623  INFO 6080 --- [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 14:24:03.639  INFO 6080 --- [Thread-17] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 14:31:54.857  INFO 9420 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 9420 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 14:31:54.858  INFO 9420 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 14:31:55.438  INFO 9420 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@56da7487: startup date [Tue Dec 12 14:31:55 CST 2017]; root of context hierarchy
+2017-12-12 14:31:56.340  WARN 9420 --- [main] ssPathScanningCandidateComponentProvider : No MyBatis mapper was found in '[com.main.wregulator.dao.mapper]' package. Please check your configuration.
+2017-12-12 14:31:56.722  INFO 9420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 14:31:56.782  INFO 9420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 14:31:57.995  INFO 9420 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$fa1c057a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 14:31:58.068  INFO 9420 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 14:31:58.844  INFO 9420 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 14:31:59.572  INFO 9420 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 14:31:59.592  INFO 9420 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 14:31:59.694  INFO 9420 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 14:31:59.696  INFO 9420 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 14:31:59.698  INFO 9420 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 14:31:59.771  INFO 9420 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 14:31:59.987  INFO 9420 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 14:32:00.889  INFO 9420 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 14:32:02.092  INFO 9420 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@56da7487: startup date [Tue Dec 12 14:31:55 CST 2017]; root of context hierarchy
+2017-12-12 14:32:02.248  INFO 9420 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 14:32:02.256  INFO 9420 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 14:32:02.257  INFO 9420 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 14:32:02.260  INFO 9420 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 14:32:02.260  INFO 9420 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 14:32:02.321  INFO 9420 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 14:32:02.322  INFO 9420 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 14:32:02.404  INFO 9420 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 14:32:02.457  WARN 9420 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 14:32:03.762  INFO 9420 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 9.882 seconds (JVM running for 13.532)
+2017-12-12 14:32:03.871  INFO 9420 --- [Thread-17] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@56da7487: startup date [Tue Dec 12 14:31:55 CST 2017]; root of context hierarchy
+2017-12-12 14:32:03.871  INFO 9420 --- [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 14:32:03.887  INFO 9420 --- [Thread-17] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 18:40:39.553  INFO 4332 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 4332 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 18:40:39.553  INFO 4332 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 18:40:39.799  INFO 4332 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d1bf319: startup date [Tue Dec 12 18:40:39 CST 2017]; root of context hierarchy
+2017-12-12 18:40:40.455  WARN 4332 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.main.wregulator.dao.mapper]' package. Please check your configuration.
+2017-12-12 18:40:40.617  INFO 4332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 18:40:40.619  INFO 4332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 18:40:40.973  INFO 4332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e8a4e3ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 18:40:41.004  INFO 4332 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 18:40:41.425  INFO 4332 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 18:40:42.003  INFO 4332 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:40:42.019  INFO 4332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 18:40:42.050  INFO 4332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 18:40:42.050  INFO 4332 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 18:40:42.050  INFO 4332 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 18:40:42.082  INFO 4332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 18:40:42.163  INFO 4332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 18:40:42.495  INFO 4332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:40:43.154  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4d1bf319: startup date [Tue Dec 12 18:40:39 CST 2017]; root of context hierarchy
+2017-12-12 18:40:43.224  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 18:40:43.224  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 18:40:43.224  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 18:40:43.224  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 18:40:43.224  INFO 4332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 18:40:43.239  INFO 4332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:40:43.239  INFO 4332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:40:43.270  INFO 4332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:40:43.302  WARN 4332 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 18:40:43.966  INFO 4332 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 4.694 seconds (JVM running for 6.765)
+2017-12-12 18:40:43.997  INFO 4332 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4d1bf319: startup date [Tue Dec 12 18:40:39 CST 2017]; root of context hierarchy
+2017-12-12 18:40:44.013  INFO 4332 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:40:44.013  INFO 4332 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 18:53:04.089  INFO 444 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 444 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 18:53:04.089  INFO 444 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 18:53:04.261  INFO 444 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d900ecf: startup date [Tue Dec 12 18:53:04 CST 2017]; root of context hierarchy
+2017-12-12 18:53:04.954  INFO 444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 18:53:04.969  INFO 444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 18:53:05.295  INFO 444 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2d3a46ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 18:53:05.326  INFO 444 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 18:53:05.714  INFO 444 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 18:53:06.299  INFO 444 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:53:06.315  INFO 444 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 18:53:06.346  INFO 444 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 18:53:06.362  INFO 444 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 18:53:06.362  INFO 444 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 18:53:06.377  INFO 444 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 18:53:06.453  INFO 444 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 18:53:06.785  INFO 444 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:53:07.289  INFO 444 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7d900ecf: startup date [Tue Dec 12 18:53:04 CST 2017]; root of context hierarchy
+2017-12-12 18:53:07.351  INFO 444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 18:53:07.351  INFO 444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 18:53:07.351  INFO 444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 18:53:07.351  INFO 444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 18:53:07.351  INFO 444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 18:53:07.382  INFO 444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:53:07.382  INFO 444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:53:07.414  INFO 444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:53:07.429  WARN 444 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 18:53:08.036  INFO 444 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 4.368 seconds (JVM running for 5.086)
+2017-12-12 18:53:08.083  INFO 444 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7d900ecf: startup date [Tue Dec 12 18:53:04 CST 2017]; root of context hierarchy
+2017-12-12 18:53:08.083  INFO 444 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:53:08.083  INFO 444 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 18:56:57.538  INFO 10844 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 10844 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 18:56:57.538  INFO 10844 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 18:56:57.738  INFO 10844 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 18:56:57 CST 2017]; root of context hierarchy
+2017-12-12 18:56:58.529  INFO 10844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 18:56:58.545  INFO 10844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 18:56:58.940  INFO 10844 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$235d52f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 18:56:58.972  INFO 10844 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 18:56:59.628  INFO 10844 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 18:57:00.237  INFO 10844 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:57:00.237  INFO 10844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 18:57:00.284  INFO 10844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 18:57:00.284  INFO 10844 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 18:57:00.284  INFO 10844 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 18:57:00.315  INFO 10844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 18:57:00.424  INFO 10844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 18:57:00.815  INFO 10844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:57:01.440  INFO 10844 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 18:56:57 CST 2017]; root of context hierarchy
+2017-12-12 18:57:01.518  INFO 10844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 18:57:01.518  INFO 10844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 18:57:01.518  INFO 10844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 18:57:01.518  INFO 10844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 18:57:01.518  INFO 10844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 18:57:01.549  INFO 10844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:57:01.549  INFO 10844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:57:01.596  INFO 10844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 18:57:01.627  WARN 10844 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 18:57:02.512  INFO 10844 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 5.333 seconds (JVM running for 6.37)
+2017-12-12 18:57:02.637  INFO 10844 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 18:56:57 CST 2017]; root of context hierarchy
+2017-12-12 18:57:02.637  INFO 10844 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 18:57:02.653  INFO 10844 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 19:08:58.885  INFO 9852 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 9852 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 19:08:58.885  INFO 9852 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 19:08:59.072  INFO 9852 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:08:59 CST 2017]; root of context hierarchy
+2017-12-12 19:08:59.884  INFO 9852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:08:59.915  INFO 9852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:09:00.337  INFO 9852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3fd8db1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 19:09:00.368  INFO 9852 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 19:09:00.790  INFO 9852 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 19:09:01.389  INFO 9852 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:09:01.404  INFO 9852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 19:09:01.451  INFO 9852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 19:09:01.451  INFO 9852 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 19:09:01.451  INFO 9852 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 19:09:01.482  INFO 9852 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 19:09:01.576  INFO 9852 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 19:09:02.002  INFO 9852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:09:02.674  INFO 9852 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:08:59 CST 2017]; root of context hierarchy
+2017-12-12 19:09:02.765  INFO 9852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 19:09:02.765  INFO 9852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 19:09:02.765  INFO 9852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 19:09:02.765  INFO 9852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 19:09:02.765  INFO 9852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 19:09:02.796  INFO 9852 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:09:02.796  INFO 9852 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:09:02.843  INFO 9852 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:09:02.874  WARN 9852 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 19:09:03.783  INFO 9852 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 5.343 seconds (JVM running for 6.399)
+2017-12-12 19:09:03.862  INFO 9852 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:08:59 CST 2017]; root of context hierarchy
+2017-12-12 19:09:03.862  INFO 9852 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:09:03.862  INFO 9852 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 19:17:03.233  INFO 5572 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 5572 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 19:17:03.233  INFO 5572 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 19:17:03.499  INFO 5572 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5bfa8cc5: startup date [Tue Dec 12 19:17:03 CST 2017]; root of context hierarchy
+2017-12-12 19:17:04.348  INFO 5572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:17:04.426  INFO 5572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:17:04.918  INFO 5572 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8cf61905] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 19:17:04.949  INFO 5572 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 19:17:05.402  INFO 5572 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 19:17:06.070  INFO 5572 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:17:06.085  INFO 5572 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 19:17:06.132  INFO 5572 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 19:17:06.132  INFO 5572 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 19:17:06.132  INFO 5572 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 19:17:06.163  INFO 5572 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 19:17:06.273  INFO 5572 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 19:17:06.679  INFO 5572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:17:07.444  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5bfa8cc5: startup date [Tue Dec 12 19:17:03 CST 2017]; root of context hierarchy
+2017-12-12 19:17:07.538  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 19:17:07.538  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 19:17:07.538  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 19:17:07.538  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 19:17:07.538  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 19:17:07.569  INFO 5572 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:17:07.569  INFO 5572 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:17:07.601  INFO 5572 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:17:07.632  WARN 5572 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 19:17:08.617  INFO 5572 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 5.728 seconds (JVM running for 6.752)
+2017-12-12 19:17:08.695  INFO 5572 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5bfa8cc5: startup date [Tue Dec 12 19:17:03 CST 2017]; root of context hierarchy
+2017-12-12 19:17:08.695  INFO 5572 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:17:08.695  INFO 5572 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 19:18:25.111  INFO 7516 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 7516 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 19:18:25.111  INFO 7516 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 19:18:25.330  INFO 7516 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5bfa8cc5: startup date [Tue Dec 12 19:18:25 CST 2017]; root of context hierarchy
+2017-12-12 19:18:26.159  INFO 7516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:18:26.191  INFO 7516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:18:26.675  INFO 7516 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8710cd73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 19:18:26.706  INFO 7516 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 19:18:27.197  INFO 7516 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 19:18:27.791  INFO 7516 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:18:27.807  INFO 7516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 19:18:27.854  INFO 7516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 19:18:27.854  INFO 7516 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 19:18:27.854  INFO 7516 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 19:18:27.885  INFO 7516 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 19:18:27.979  INFO 7516 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 19:18:28.385  INFO 7516 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:18:29.103  INFO 7516 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5bfa8cc5: startup date [Tue Dec 12 19:18:25 CST 2017]; root of context hierarchy
+2017-12-12 19:18:29.197  INFO 7516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 19:18:29.197  INFO 7516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 19:18:29.197  INFO 7516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 19:18:29.197  INFO 7516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 19:18:29.197  INFO 7516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 19:18:29.229  INFO 7516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:18:29.229  INFO 7516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:18:29.260  INFO 7516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:18:29.291  WARN 7516 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 19:18:30.296  INFO 7516 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 5.62 seconds (JVM running for 6.832)
+2017-12-12 19:19:06.172  INFO 7516 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5bfa8cc5: startup date [Tue Dec 12 19:18:25 CST 2017]; root of context hierarchy
+2017-12-12 19:19:06.172  INFO 7516 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:19:06.172  INFO 7516 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 19:21:37.383  INFO 1972 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 1972 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 19:21:37.383  INFO 1972 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 19:21:37.586  INFO 1972 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:21:37 CST 2017]; root of context hierarchy
+2017-12-12 19:21:38.427  INFO 1972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:21:38.458  INFO 1972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:21:38.880  INFO 1972 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$87db458] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 19:21:38.911  INFO 1972 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 19:21:39.333  INFO 1972 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 19:21:39.927  INFO 1972 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:21:39.927  INFO 1972 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 19:21:39.989  INFO 1972 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 19:21:39.989  INFO 1972 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 19:21:39.989  INFO 1972 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 19:21:40.036  INFO 1972 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 19:21:40.146  INFO 1972 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 19:21:40.615  INFO 1972 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:21:41.325  INFO 1972 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:21:37 CST 2017]; root of context hierarchy
+2017-12-12 19:21:41.403  INFO 1972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 19:21:41.403  INFO 1972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 19:21:41.403  INFO 1972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 19:21:41.403  INFO 1972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 19:21:41.403  INFO 1972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 19:21:41.434  INFO 1972 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:21:41.434  INFO 1972 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:21:41.466  INFO 1972 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:21:41.497  WARN 1972 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 19:21:42.399  INFO 1972 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 5.454 seconds (JVM running for 6.449)
+2017-12-12 19:22:20.280  INFO 1972 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-12-12 19:22:20.405  INFO 1972 --- [main] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-12-12 19:22:32.961  INFO 1972 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:21:37 CST 2017]; root of context hierarchy
+2017-12-12 19:22:32.961  INFO 1972 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:22:32.961  INFO 1972 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 19:22:51.608  INFO 7824 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 7824 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 19:22:51.608  INFO 7824 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 19:22:51.803  INFO 7824 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:22:51 CST 2017]; root of context hierarchy
+2017-12-12 19:22:52.537  INFO 7824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:22:52.553  INFO 7824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:22:52.985  INFO 7824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$76d0994d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 19:22:53.017  INFO 7824 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 19:22:53.454  INFO 7824 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 19:22:54.063  INFO 7824 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:22:54.078  INFO 7824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 19:22:54.141  INFO 7824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 19:22:54.141  INFO 7824 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 19:22:54.141  INFO 7824 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 19:22:54.172  INFO 7824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 19:22:54.282  INFO 7824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 19:22:54.761  INFO 7824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:22:55.445  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:22:51 CST 2017]; root of context hierarchy
+2017-12-12 19:22:55.539  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 19:22:55.539  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 19:22:55.539  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 19:22:55.539  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 19:22:55.539  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 19:22:55.570  INFO 7824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:22:55.570  INFO 7824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:22:55.601  INFO 7824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:22:55.632  WARN 7824 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 19:22:56.453  INFO 7824 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 5.251 seconds (JVM running for 6.307)
+2017-12-12 19:23:05.242  INFO 7824 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-12-12 19:23:05.274  INFO 7824 --- [main] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-12-12 19:23:05.305  INFO 7824 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3918c187: startup date [Tue Dec 12 19:22:51 CST 2017]; root of context hierarchy
+2017-12-12 19:23:05.305  INFO 7824 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:23:05.321  INFO 7824 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 19:33:47.315  INFO 2304 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 2304 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 19:33:47.321  INFO 2304 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 19:33:47.908  INFO 2304 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@17f2dd85: startup date [Tue Dec 12 19:33:47 CST 2017]; root of context hierarchy
+2017-12-12 19:33:49.968  INFO 2304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:33:50.029  INFO 2304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:33:51.142  INFO 2304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6458952] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 19:33:51.213  INFO 2304 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 19:33:51.942  INFO 2304 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 19:33:52.632  INFO 2304 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:33:52.651  INFO 2304 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 19:33:52.761  INFO 2304 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 19:33:52.762  INFO 2304 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 19:33:52.765  INFO 2304 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 19:33:52.832  INFO 2304 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 19:33:53.065  INFO 2304 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 19:33:53.754  INFO 2304 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:33:55.347  INFO 2304 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@17f2dd85: startup date [Tue Dec 12 19:33:47 CST 2017]; root of context hierarchy
+2017-12-12 19:33:55.476  INFO 2304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 19:33:55.478  INFO 2304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 19:33:55.481  INFO 2304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 19:33:55.484  INFO 2304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 19:33:55.484  INFO 2304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 19:33:55.531  INFO 2304 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:33:55.531  INFO 2304 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:33:55.590  INFO 2304 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:33:55.645  WARN 2304 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 19:33:56.801  INFO 2304 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 10.572 seconds (JVM running for 15.22)
+2017-12-12 19:35:22.652  INFO 2304 --- [main] com.waterworks.userTest.UserTest         : admin
+2017-12-12 19:35:22.667  INFO 2304 --- [Thread-18] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@17f2dd85: startup date [Tue Dec 12 19:33:47 CST 2017]; root of context hierarchy
+2017-12-12 19:35:22.671  INFO 2304 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:35:22.686  INFO 2304 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 19:37:11.585  INFO 1048 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 1048 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 19:37:11.587  INFO 1048 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 19:37:12.310  INFO 1048 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b6e1c0: startup date [Tue Dec 12 19:37:12 CST 2017]; root of context hierarchy
+2017-12-12 19:37:13.522  INFO 1048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:37:13.586  INFO 1048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:37:14.507  INFO 1048 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e26884a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 19:37:14.576  INFO 1048 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 19:37:15.315  INFO 1048 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 19:37:16.158  INFO 1048 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:37:16.180  INFO 1048 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 19:37:16.287  INFO 1048 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 19:37:16.288  INFO 1048 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 19:37:16.290  INFO 1048 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 19:37:16.361  INFO 1048 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 19:37:16.590  INFO 1048 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 19:37:17.360  INFO 1048 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:37:18.546  INFO 1048 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4b6e1c0: startup date [Tue Dec 12 19:37:12 CST 2017]; root of context hierarchy
+2017-12-12 19:37:18.681  INFO 1048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 19:37:18.684  INFO 1048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 19:37:18.687  INFO 1048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 19:37:18.689  INFO 1048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 19:37:18.690  INFO 1048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 19:37:18.727  INFO 1048 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:37:18.727  INFO 1048 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:37:18.789  INFO 1048 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:37:18.849  WARN 1048 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 19:37:20.025  INFO 1048 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 9.346 seconds (JVM running for 12.398)
+2017-12-12 19:37:50.747  INFO 1048 --- [main] com.waterworks.userTest.UserTest         : admin
+2017-12-12 19:37:52.766  INFO 1048 --- [Thread-18] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4b6e1c0: startup date [Tue Dec 12 19:37:12 CST 2017]; root of context hierarchy
+2017-12-12 19:37:52.773  INFO 1048 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:37:52.773  INFO 1048 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 19:58:26.612  INFO 2228 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 2228 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 19:58:26.613  INFO 2228 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 19:58:27.386  INFO 2228 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@455c1d8c: startup date [Tue Dec 12 19:58:27 CST 2017]; root of context hierarchy
+2017-12-12 19:58:29.019  INFO 2228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:58:29.092  INFO 2228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 19:58:30.270  INFO 2228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ca572099] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 19:58:30.352  INFO 2228 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 19:58:31.114  INFO 2228 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 19:58:31.907  INFO 2228 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:58:31.925  INFO 2228 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 19:58:32.029  INFO 2228 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 19:58:32.031  INFO 2228 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 19:58:32.033  INFO 2228 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 19:58:32.128  INFO 2228 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 19:58:32.446  INFO 2228 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 19:58:33.547  INFO 2228 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:58:34.858  INFO 2228 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@455c1d8c: startup date [Tue Dec 12 19:58:27 CST 2017]; root of context hierarchy
+2017-12-12 19:58:34.996  INFO 2228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 19:58:34.998  INFO 2228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 19:58:35.002  INFO 2228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 19:58:35.004  INFO 2228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 19:58:35.004  INFO 2228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 19:58:35.043  INFO 2228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:58:35.043  INFO 2228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:58:35.107  INFO 2228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 19:58:35.167  WARN 2228 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 19:58:36.392  INFO 2228 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 10.724 seconds (JVM running for 14.197)
+2017-12-12 19:58:43.765  INFO 2228 --- [Thread-18] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@455c1d8c: startup date [Tue Dec 12 19:58:27 CST 2017]; root of context hierarchy
+2017-12-12 19:58:43.765  INFO 2228 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 19:58:43.781  INFO 2228 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 20:01:32.029  INFO 5092 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 5092 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 20:01:32.030  INFO 5092 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 20:01:32.560  INFO 5092 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@110844f6: startup date [Tue Dec 12 20:01:32 CST 2017]; root of context hierarchy
+2017-12-12 20:01:33.891  INFO 5092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:01:34.015  INFO 5092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:01:35.085  INFO 5092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b5e7b4b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 20:01:35.148  INFO 5092 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 20:01:35.766  INFO 5092 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 20:01:36.513  INFO 5092 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:01:36.531  INFO 5092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 20:01:36.619  INFO 5092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 20:01:36.621  INFO 5092 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 20:01:36.622  INFO 5092 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 20:01:36.674  INFO 5092 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 20:01:36.838  INFO 5092 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 20:01:37.393  INFO 5092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:01:38.286  INFO 5092 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@110844f6: startup date [Tue Dec 12 20:01:32 CST 2017]; root of context hierarchy
+2017-12-12 20:01:38.385  INFO 5092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 20:01:38.388  INFO 5092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 20:01:38.389  INFO 5092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 20:01:38.390  INFO 5092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 20:01:38.391  INFO 5092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 20:01:38.423  INFO 5092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:01:38.423  INFO 5092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:01:38.471  INFO 5092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:01:38.531  WARN 5092 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 20:01:39.482  INFO 5092 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 8.492 seconds (JVM running for 11.014)
+2017-12-12 20:01:39.706  INFO 5092 --- [main] com.waterworks.userTest.UserTest         : admin
+2017-12-12 20:01:39.715  INFO 5092 --- [Thread-18] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@110844f6: startup date [Tue Dec 12 20:01:32 CST 2017]; root of context hierarchy
+2017-12-12 20:01:39.733  INFO 5092 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:01:39.754  INFO 5092 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 20:02:09.905  INFO 10656 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 10656 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 20:02:09.907  INFO 10656 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 20:02:10.434  INFO 10656 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e74a380: startup date [Tue Dec 12 20:02:10 CST 2017]; root of context hierarchy
+2017-12-12 20:02:11.941  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:02:11.999  INFO 10656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:02:13.034  INFO 10656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6e4c72c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 20:02:13.100  INFO 10656 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 20:02:13.777  INFO 10656 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 20:02:14.473  INFO 10656 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:02:14.493  INFO 10656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 20:02:14.621  INFO 10656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 20:02:14.623  INFO 10656 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 20:02:14.624  INFO 10656 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 20:02:14.696  INFO 10656 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 20:02:14.895  INFO 10656 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 20:02:15.708  INFO 10656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:02:16.927  INFO 10656 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7e74a380: startup date [Tue Dec 12 20:02:10 CST 2017]; root of context hierarchy
+2017-12-12 20:02:17.056  INFO 10656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 20:02:17.058  INFO 10656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 20:02:17.062  INFO 10656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 20:02:17.063  INFO 10656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 20:02:17.064  INFO 10656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 20:02:17.130  INFO 10656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:02:17.131  INFO 10656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:02:17.223  INFO 10656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:02:17.292  WARN 10656 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 20:02:18.551  INFO 10656 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 9.556 seconds (JVM running for 12.729)
+2017-12-12 20:02:56.720  INFO 10656 --- [main] com.waterworks.userTest.UserTest         : admin
+2017-12-12 20:02:56.755  INFO 10656 --- [Thread-18] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7e74a380: startup date [Tue Dec 12 20:02:10 CST 2017]; root of context hierarchy
+2017-12-12 20:02:56.762  INFO 10656 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:02:56.778  INFO 10656 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 20:25:17.941  INFO 10804 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 10804 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 20:25:17.942  INFO 10804 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 20:25:18.733  INFO 10804 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@24e8de5c: startup date [Tue Dec 12 20:25:18 CST 2017]; root of context hierarchy
+2017-12-12 20:25:20.155  INFO 10804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:25:20.205  INFO 10804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:25:21.067  INFO 10804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e9a4c130] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 20:25:21.129  INFO 10804 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 20:25:21.755  INFO 10804 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 20:25:22.528  INFO 10804 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:25:22.546  INFO 10804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 20:25:22.627  INFO 10804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 20:25:22.629  INFO 10804 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 20:25:22.630  INFO 10804 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 20:25:22.680  INFO 10804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 20:25:22.868  INFO 10804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 20:25:23.520  INFO 10804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:25:24.506  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@24e8de5c: startup date [Tue Dec 12 20:25:18 CST 2017]; root of context hierarchy
+2017-12-12 20:25:24.615  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 20:25:24.618  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUser],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.waterworks.repository.entity.User com.waterworks.controller.UsersController.findUser(int)
+2017-12-12 20:25:24.621  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 20:25:24.621  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public boolean com.waterworks.controller.UsersController.deleteUser(int)
+2017-12-12 20:25:24.621  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.waterworks.controller.UsersController.updateUser(com.waterworks.repository.entity.User,int)
+2017-12-12 20:25:24.622  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 20:25:24.623  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 20:25:24.623  INFO 10804 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 20:25:24.657  INFO 10804 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:25:24.657  INFO 10804 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:25:24.700  INFO 10804 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:25:24.739  WARN 10804 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 20:25:25.690  INFO 10804 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 8.506 seconds (JVM running for 11.138)
+2017-12-12 20:25:25.826  INFO 10804 --- [Thread-18] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@24e8de5c: startup date [Tue Dec 12 20:25:18 CST 2017]; root of context hierarchy
+2017-12-12 20:25:25.834  INFO 10804 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:25:25.834  INFO 10804 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 20:31:09.028  INFO 4816 --- [main] com.waterworks.userTest.UserTest         : Starting UserTest on DESKTOP-79A2OGR with PID 4816 (started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 20:31:09.029  INFO 4816 --- [main] com.waterworks.userTest.UserTest         : No active profile set, falling back to default profiles: default
+2017-12-12 20:31:09.456  INFO 4816 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@24e8de5c: startup date [Tue Dec 12 20:31:09 CST 2017]; root of context hierarchy
+2017-12-12 20:31:10.827  INFO 4816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:31:10.886  INFO 4816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:31:11.771  INFO 4816 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ddd9ad4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 20:31:11.829  INFO 4816 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 20:31:12.446  INFO 4816 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 20:31:13.182  INFO 4816 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:31:13.200  INFO 4816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 20:31:13.326  INFO 4816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 20:31:13.328  INFO 4816 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 20:31:13.332  INFO 4816 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 20:31:13.427  INFO 4816 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 20:31:13.605  INFO 4816 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 20:31:14.296  INFO 4816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:31:15.337  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@24e8de5c: startup date [Tue Dec 12 20:31:09 CST 2017]; root of context hierarchy
+2017-12-12 20:31:15.439  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 20:31:15.441  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 20:31:15.442  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public boolean com.waterworks.controller.UsersController.deleteUser(int)
+2017-12-12 20:31:15.445  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 20:31:15.446  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUser],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.waterworks.repository.entity.User com.waterworks.controller.UsersController.findUser(int)
+2017-12-12 20:31:15.446  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.waterworks.controller.UsersController.updateUser(com.waterworks.repository.entity.User)
+2017-12-12 20:31:15.448  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 20:31:15.448  INFO 4816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 20:31:15.480  INFO 4816 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:31:15.481  INFO 4816 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:31:15.523  INFO 4816 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:31:15.572  WARN 4816 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 20:31:16.550  INFO 4816 --- [main] com.waterworks.userTest.UserTest         : Started UserTest in 8.449 seconds (JVM running for 11.33)
+2017-12-12 20:31:16.832  INFO 4816 --- [main] com.waterworks.userTest.UserTest         : admin
+2017-12-12 20:31:16.841  INFO 4816 --- [Thread-18] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@24e8de5c: startup date [Tue Dec 12 20:31:09 CST 2017]; root of context hierarchy
+2017-12-12 20:31:16.857  INFO 4816 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:31:16.857  INFO 4816 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-12 20:33:55.233  INFO 6092 --- [main] c.w.WatersupplyplatformApplication       : Starting WatersupplyplatformApplication on DESKTOP-79A2OGR with PID 6092 (E:\ProgramFile\javaProject\waterSupplyPlatform\target\classes started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 20:33:55.235  INFO 6092 --- [main] c.w.WatersupplyplatformApplication       : No active profile set, falling back to default profiles: default
+2017-12-12 20:33:55.425  INFO 6092 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@301ec38b: startup date [Tue Dec 12 20:33:55 CST 2017]; root of context hierarchy
+2017-12-12 20:33:56.052  INFO 6092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:33:56.078  INFO 6092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:33:56.446  INFO 6092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$425ddf00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 20:33:56.487  INFO 6092 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 20:33:56.879  INFO 6092 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-12 20:33:56.889  INFO 6092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-12 20:33:56.890  INFO 6092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-12 20:33:57.027  INFO 6092 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-12 20:33:57.027  INFO 6092 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1605 ms
+2017-12-12 20:33:57.215  INFO 6092 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-12 20:33:57.216  INFO 6092 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-12 20:33:57.216  INFO 6092 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-12-12 20:33:57.218  INFO 6092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-12 20:33:57.218  INFO 6092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-12 20:33:57.219  INFO 6092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-12 20:33:57.219  INFO 6092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-12 20:33:57.219  INFO 6092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-12 20:33:57.588  INFO 6092 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 20:33:58.119  INFO 6092 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:33:58.127  INFO 6092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 20:33:58.173  INFO 6092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 20:33:58.173  INFO 6092 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 20:33:58.174  INFO 6092 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 20:33:58.207  INFO 6092 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 20:33:58.287  INFO 6092 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 20:33:58.654  INFO 6092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:33:59.120  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@301ec38b: startup date [Tue Dec 12 20:33:55 CST 2017]; root of context hierarchy
+2017-12-12 20:33:59.175  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 20:33:59.178  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 20:33:59.178  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUser],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.waterworks.repository.entity.User com.waterworks.controller.UsersController.findUser(int)
+2017-12-12 20:33:59.178  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.waterworks.controller.UsersController.updateUser(com.waterworks.repository.entity.User)
+2017-12-12 20:33:59.179  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 20:33:59.179  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public boolean com.waterworks.controller.UsersController.deleteUser(int)
+2017-12-12 20:33:59.181  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 20:33:59.181  INFO 6092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 20:33:59.202  INFO 6092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:33:59.202  INFO 6092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:33:59.228  INFO 6092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:33:59.252  WARN 6092 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 20:33:59.775  INFO 6092 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-12 20:33:59.777  INFO 6092 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-12 20:33:59.780  INFO 6092 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-12 20:33:59.837  INFO 6092 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-12 20:33:59.843  INFO 6092 --- [main] c.w.WatersupplyplatformApplication       : Started WatersupplyplatformApplication in 5.124 seconds (JVM running for 7.44)
+2017-12-12 20:34:33.616  INFO 6092 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1501500896,1501501646,1501507747; Idea-d586a5b=1df5214d-c074-46bd-b854-009aae74d615; JSESSIONID=9B5CE251A3E51EBDB9BDC7DAA9B1032A; jiathis_rdc=%7B%22http%3A//localhost%3A8080/index.html%3Bjsessionid%3D9B5CE251A3E51EBDB9BDC7DAA9B1032A%22%3A%220%7C1512976916206%22%7D; rememberMe=sWsXaQwaDGGazsn7BM4r/TsRM+5BhEf5ejUEuqkZVtNKyrjIK9CSuZGIlhn5lXXbcOCpe6AvYjuXWN3mIZFRQo6sGYbqiDL3Z9rzNVXOFJOf9GhnTqNwfWcrpo3XSeLJTJRVbSjIXoRBt48xfH6VP9GWPPgnry2eaABcb/T/VHrxkCk7GUBFWdfyPNNxfQcSOHa/638K25TCv8dZCSckdQruLsgm6BxYe+Rbtj9HoMwSXjLQk8fXCM3GN5uUsavwqh6e+qM0ERmFmg+HG3yk9y/EWeyxFeqm8khLCH0N4RLw4rRotgp1LZxd6xscgMFY7NshCA9F68MWEerSmsj/232stxBUaG3e1VwwEXISPz+BjJ5Sl1cNDdMT8gMDZhqv3hofuK+I4ZoLEmGMTK9ECto3WNEJMod+msdbAEmb+Av2sDRQgS3zB4JXM/snegqQEZw43+BjjOKD7sEwA9odJS2UyLD1vFMAzElh0mwwAC2zraNDVmseFJYB1Bdv941pUYjLZfxNzwISL6f8rKGnkg==] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2017-12-12 20:34:33.631  INFO 6092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-12 20:34:33.631  INFO 6092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-12 20:34:33.645  INFO 6092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2017-12-12 20:34:33.713  INFO 6092 --- [http-nio-8080-exec-1] c.w.controller.BasicInfoController       : test Request method Get
+2017-12-12 20:43:13.549  INFO 8736 --- [main] c.w.WatersupplyplatformApplication       : Starting WatersupplyplatformApplication on DESKTOP-79A2OGR with PID 8736 (E:\ProgramFile\javaProject\waterSupplyPlatform\target\classes started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 20:43:13.551  INFO 8736 --- [main] c.w.WatersupplyplatformApplication       : No active profile set, falling back to default profiles: default
+2017-12-12 20:43:13.744  INFO 8736 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@767e20cf: startup date [Tue Dec 12 20:43:13 CST 2017]; root of context hierarchy
+2017-12-12 20:43:14.344  INFO 8736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:43:14.371  INFO 8736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:43:14.739  INFO 8736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$57d721b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 20:43:14.776  INFO 8736 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 20:43:15.132  INFO 8736 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-12 20:43:15.141  INFO 8736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-12 20:43:15.141  INFO 8736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-12 20:43:15.260  INFO 8736 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-12 20:43:15.260  INFO 8736 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1518 ms
+2017-12-12 20:43:15.438  INFO 8736 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-12 20:43:15.440  INFO 8736 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-12 20:43:15.440  INFO 8736 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-12-12 20:43:15.442  INFO 8736 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-12 20:43:15.443  INFO 8736 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-12 20:43:15.443  INFO 8736 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-12 20:43:15.443  INFO 8736 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-12 20:43:15.443  INFO 8736 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-12 20:43:15.821  INFO 8736 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 20:43:16.342  INFO 8736 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:43:16.351  INFO 8736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 20:43:16.400  INFO 8736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 20:43:16.400  INFO 8736 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 20:43:16.401  INFO 8736 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 20:43:16.432  INFO 8736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 20:43:16.523  INFO 8736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 20:43:16.918  INFO 8736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:43:17.373  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@767e20cf: startup date [Tue Dec 12 20:43:13 CST 2017]; root of context hierarchy
+2017-12-12 20:43:17.431  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 20:43:17.434  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.waterworks.controller.UsersController.updateUser(com.waterworks.repository.entity.User)
+2017-12-12 20:43:17.434  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUser],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.waterworks.repository.entity.User com.waterworks.controller.UsersController.findUser(int)
+2017-12-12 20:43:17.434  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 20:43:17.435  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 20:43:17.435  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public boolean com.waterworks.controller.UsersController.deleteUser(int)
+2017-12-12 20:43:17.437  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 20:43:17.438  INFO 8736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 20:43:17.458  INFO 8736 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:43:17.458  INFO 8736 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:43:17.483  INFO 8736 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:43:17.506  WARN 8736 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 20:43:18.034  INFO 8736 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-12 20:43:18.035  INFO 8736 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-12 20:43:18.039  INFO 8736 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-12 20:43:18.095  INFO 8736 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-12 20:43:18.100  INFO 8736 --- [main] c.w.WatersupplyplatformApplication       : Started WatersupplyplatformApplication in 5.081 seconds (JVM running for 7.359)
+2017-12-12 20:43:30.411  INFO 8736 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-12 20:43:30.411  INFO 8736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-12 20:43:30.425  INFO 8736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2017-12-12 20:44:24.484  INFO 8736 --- [http-nio-8080-exec-2] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-12-12 20:44:24.526  INFO 8736 --- [http-nio-8080-exec-2] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-12-12 20:44:24.612 ERROR 8736 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '4RR' in 'where clause'
+### The error may involve com.waterworks.repository.mapper.UserMapper.deleteUserById-Inline
+### The error occurred while setting parameters
+### SQL: delete from user     where id = ?RR
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '4RR' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '4RR' in 'where clause'] with root cause
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '4RR' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.__newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931) ~[druid-1.0.11.jar:1.0.11]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440) ~[druid-1.0.11.jar:1.0.11]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929) ~[druid-1.0.11.jar:1.0.11]
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118) ~[druid-1.0.11.jar:1.0.11]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493) ~[druid-1.0.11.jar:1.0.11]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.4.5.jar:3.4.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63) ~[mybatis-3.4.5.jar:3.4.5]
+	at com.sun.proxy.$Proxy97.update(Unknown Source) ~[na:na]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:213) ~[mybatis-3.4.5.jar:3.4.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at com.sun.proxy.$Proxy84.delete(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:310) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59) ~[mybatis-3.4.5.jar:3.4.5]
+	at com.sun.proxy.$Proxy87.deleteUserById(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136) ~[spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at com.sun.proxy.$Proxy88.deleteUserById(Unknown Source) ~[na:na]
+	at com.waterworks.service.userService.impl.UserServiceImpl.deleteUser(UserServiceImpl.java:44) ~[classes/:na]
+	at com.waterworks.service.userService.impl.UserServiceImpl$$FastClassBySpringCGLIB$$10ccb6af.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at com.waterworks.service.userService.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$c5f42315.deleteUser(<generated>) ~[classes/:na]
+	at com.waterworks.controller.UsersController.deleteUser(UsersController.java:36) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.__invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) ~[druid-1.0.11.jar:1.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+
+2017-12-12 20:46:52.752  INFO 2744 --- [main] c.w.WatersupplyplatformApplication       : Starting WatersupplyplatformApplication on DESKTOP-79A2OGR with PID 2744 (E:\ProgramFile\javaProject\waterSupplyPlatform\target\classes started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 20:46:52.752  INFO 2744 --- [main] c.w.WatersupplyplatformApplication       : No active profile set, falling back to default profiles: default
+2017-12-12 20:46:52.927  INFO 2744 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cf0e0ba: startup date [Tue Dec 12 20:46:52 CST 2017]; root of context hierarchy
+2017-12-12 20:46:53.376  INFO 2744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:46:53.392  INFO 2744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:46:53.585  INFO 2744 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$cff9d34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 20:46:53.617  INFO 2744 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 20:46:53.821  INFO 2744 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-12 20:46:53.821  INFO 2744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-12 20:46:53.821  INFO 2744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-12 20:46:53.884  INFO 2744 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-12 20:46:53.884  INFO 2744 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 959 ms
+2017-12-12 20:46:54.023  INFO 2744 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-12 20:46:54.038  INFO 2744 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-12 20:46:54.038  INFO 2744 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-12-12 20:46:54.038  INFO 2744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-12 20:46:54.038  INFO 2744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-12 20:46:54.038  INFO 2744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-12 20:46:54.038  INFO 2744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-12 20:46:54.038  INFO 2744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-12 20:46:54.204  INFO 2744 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 20:46:54.753  INFO 2744 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:46:54.760  INFO 2744 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 20:46:54.792  INFO 2744 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 20:46:54.792  INFO 2744 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 20:46:54.792  INFO 2744 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 20:46:54.808  INFO 2744 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 20:46:54.855  INFO 2744 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 20:46:55.040  INFO 2744 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:46:55.298  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cf0e0ba: startup date [Tue Dec 12 20:46:52 CST 2017]; root of context hierarchy
+2017-12-12 20:46:55.345  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 20:46:55.345  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 20:46:55.345  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 20:46:55.345  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.waterworks.controller.UsersController.updateUser(com.waterworks.repository.entity.User)
+2017-12-12 20:46:55.345  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUser],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.waterworks.repository.entity.User com.waterworks.controller.UsersController.findUser(int)
+2017-12-12 20:46:55.345  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public boolean com.waterworks.controller.UsersController.deleteUser(int)
+2017-12-12 20:46:55.345  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 20:46:55.345  INFO 2744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 20:46:55.361  INFO 2744 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:46:55.361  INFO 2744 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:46:55.392  INFO 2744 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:46:55.407  WARN 2744 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 20:46:55.803  INFO 2744 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-12 20:46:55.803  INFO 2744 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-12 20:46:55.806  INFO 2744 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-12 20:46:55.832  INFO 2744 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-12 20:46:55.835  INFO 2744 --- [main] c.w.WatersupplyplatformApplication       : Started WatersupplyplatformApplication in 3.281 seconds (JVM running for 3.694)
+2017-12-12 20:47:04.265  INFO 2744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-12 20:47:04.265  INFO 2744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-12 20:47:04.267  INFO 2744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2017-12-12 20:47:04.439  INFO 2744 --- [http-nio-8080-exec-1] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-12-12 20:47:04.454  INFO 2744 --- [http-nio-8080-exec-1] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-12-12 20:47:04.539 ERROR 2744 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '4RR' in 'where clause'
+### The error may involve com.waterworks.repository.mapper.UserMapper.deleteUserById-Inline
+### The error occurred while setting parameters
+### SQL: delete from user     where id = ?RR
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '4RR' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '4RR' in 'where clause'] with root cause
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '4RR' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197) ~[mysql-connector-java-5.1.44.jar:5.1.44]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931) ~[druid-1.0.11.jar:1.0.11]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440) ~[druid-1.0.11.jar:1.0.11]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929) ~[druid-1.0.11.jar:1.0.11]
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118) ~[druid-1.0.11.jar:1.0.11]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493) ~[druid-1.0.11.jar:1.0.11]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.4.5.jar:3.4.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63) ~[mybatis-3.4.5.jar:3.4.5]
+	at com.sun.proxy.$Proxy93.update(Unknown Source) ~[na:na]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:213) ~[mybatis-3.4.5.jar:3.4.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at com.sun.proxy.$Proxy80.delete(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:310) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59) ~[mybatis-3.4.5.jar:3.4.5]
+	at com.sun.proxy.$Proxy83.deleteUserById(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136) ~[spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at com.sun.proxy.$Proxy85.deleteUserById(Unknown Source) ~[na:na]
+	at com.waterworks.service.userService.impl.UserServiceImpl.deleteUser(UserServiceImpl.java:44) ~[classes/:na]
+	at com.waterworks.service.userService.impl.UserServiceImpl$$FastClassBySpringCGLIB$$10ccb6af.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673) ~[spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at com.waterworks.service.userService.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$7628e9ff.deleteUser(<generated>) ~[classes/:na]
+	at com.waterworks.controller.UsersController.deleteUser(UsersController.java:36) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) ~[druid-1.0.11.jar:1.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+
+2017-12-12 20:47:34.744  INFO 10064 --- [main] c.w.WatersupplyplatformApplication       : Starting WatersupplyplatformApplication on DESKTOP-79A2OGR with PID 10064 (E:\ProgramFile\javaProject\waterSupplyPlatform\target\classes started by vellerzheng in E:\ProgramFile\javaProject\waterSupplyPlatform)
+2017-12-12 20:47:34.744  INFO 10064 --- [main] c.w.WatersupplyplatformApplication       : No active profile set, falling back to default profiles: default
+2017-12-12 20:47:34.960  INFO 10064 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cf0e0ba: startup date [Tue Dec 12 20:47:34 CST 2017]; root of context hierarchy
+2017-12-12 20:47:35.502  INFO 10064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:47:35.502  INFO 10064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-12 20:47:35.704  INFO 10064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$fca69da5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-12 20:47:35.734  INFO 10064 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-12-12 20:47:35.920  INFO 10064 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-12 20:47:35.938  INFO 10064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-12 20:47:35.940  INFO 10064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-12 20:47:35.998  INFO 10064 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-12 20:47:35.998  INFO 10064 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1041 ms
+2017-12-12 20:47:36.117  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-12 20:47:36.117  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-12 20:47:36.117  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-12-12 20:47:36.117  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-12 20:47:36.117  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-12 20:47:36.117  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-12 20:47:36.117  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-12 20:47:36.117  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-12 20:47:36.298  INFO 10064 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-12 20:47:36.742  INFO 10064 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:47:36.798  INFO 10064 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 20:47:36.839  INFO 10064 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 20:47:36.840  INFO 10064 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-12 20:47:36.840  INFO 10064 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-12 20:47:36.851  INFO 10064 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 20:47:36.898  INFO 10064 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 20:47:37.086  INFO 10064 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 20:47:37.423  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cf0e0ba: startup date [Tue Dec 12 20:47:34 CST 2017]; root of context hierarchy
+2017-12-12 20:47:37.469  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.waterworks.controller.BasicInfoController.testHelo()
+2017-12-12 20:47:37.469  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public int com.waterworks.controller.UsersController.addUser(com.waterworks.repository.entity.User)
+2017-12-12 20:47:37.469  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all/{pageNum}/{pageSize}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public java.lang.Object com.waterworks.controller.UsersController.findAllUser(int,int)
+2017-12-12 20:47:37.469  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.waterworks.controller.UsersController.updateUser(com.waterworks.repository.entity.User)
+2017-12-12 20:47:37.469  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public boolean com.waterworks.controller.UsersController.deleteUser(int)
+2017-12-12 20:47:37.469  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUser],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.waterworks.repository.entity.User com.waterworks.controller.UsersController.findUser(int)
+2017-12-12 20:47:37.469  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 20:47:37.469  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 20:47:37.485  INFO 10064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:47:37.485  INFO 10064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:47:37.524  INFO 10064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 20:47:37.539  WARN 10064 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2017-12-12 20:47:37.913  INFO 10064 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-12 20:47:37.913  INFO 10064 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-12 20:47:37.916  INFO 10064 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-12 20:47:37.943  INFO 10064 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-12 20:47:37.946  INFO 10064 --- [main] c.w.WatersupplyplatformApplication       : Started WatersupplyplatformApplication in 3.421 seconds (JVM running for 3.814)
+2017-12-12 20:47:55.119  INFO 10064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-12 20:47:55.119  INFO 10064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-12 20:47:55.131  INFO 10064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
