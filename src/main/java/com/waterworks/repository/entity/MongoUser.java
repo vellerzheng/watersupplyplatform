@@ -4,9 +4,11 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 
+import java.io.Serializable;
+
 @Getter
 @Setter
-public class MongoUser {
+public class MongoUser implements Serializable{
 
     @Id
     private String id;

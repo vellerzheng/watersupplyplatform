@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Example;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
@@ -23,10 +24,14 @@ public class MongoUserRepositoryTest {
     @Test
     public void add(){
         MongoUser mongoUser=new MongoUser();
+        String id= UUID.randomUUID().toString();
+        mongoUser.setId(id);
         mongoUser.setUserId(112222);
         mongoUser.setUserName("江海通");
-        mongoUser.setId(UUID.randomUUID().toString());
         msgInfoRepository.save(mongoUser);
+
+        MongoUser mongoUser1 =new MongoUser();
+        mongoUser1 = msgInfoRepository.findOne(id);
         List<MongoUser> list = msgInfoRepository.findAll();
         for(MongoUser mgUser : list)
             System.out.println("All user is :" + mgUser);
