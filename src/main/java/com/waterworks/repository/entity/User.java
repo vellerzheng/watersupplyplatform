@@ -5,7 +5,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
+
 public class User {
     private int id;
 
@@ -29,9 +29,7 @@ public class User {
 
     private Integer roleId;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
+
     public int getId() {
         return id;
     }
